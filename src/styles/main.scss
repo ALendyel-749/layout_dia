@@ -1,6 +1,12 @@
 @import 'utils';
 @import 'fonts';
 @import 'typography';
+@import 'header';
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   background: $c-gray;

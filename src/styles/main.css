@@ -1,0 +1,29 @@
+h1 {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.header {
+  border-bottom: 2px solid black;
+}
+.header__container {
+  max-width: 2560px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #eee;
+}/*# sourceMappingURL=main.css.map */
